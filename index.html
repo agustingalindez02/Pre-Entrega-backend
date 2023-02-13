@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <form style="display: flex; flex-direction: column;" action="">
+                <input required type="text" id="nombre" placeholder="Nombre">
+                <textarea id="descripcion" required cols="30" placeholder="Descripcion" rows="10"></textarea>
+                <input type="text" required id="codigo" placeholder="Codigo">
+                <input type="number" required id="precio" placeholder="Precio">
+                <input type="number" required id="stock" placeholder="Stock">
+                <input type="file" id="imagen" placeholder="Imagen">
+                <button id="agregar">Agregar Producto</button>
+            </form>
+            <ul id="lista-productos">
+
+            </ul>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
